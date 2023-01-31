@@ -20,3 +20,9 @@ VSS_ENVIRONMENT_VARIABLE = Simulink.Variant('VSS_ENVIRONMENT==1');
 % Vehicle
 VSS_VEHICLE_LINEAR = Simulink.Variant('VSS_VEHICLE==0');
 VSS_VEHICLE_NONLINEAR = Simulink.Variant('VSS_VEHICLE==1');
+
+%Joypad
+VSS_USE_JOYPAD = Simulink.Variant('VSS_JOYPAD==1');
+VSS_NO_JOYPAD = Simulink.Variant('VSS_JOYPAD==0');
+
+VSS_JOYPAD=0;
